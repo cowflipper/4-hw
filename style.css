@@ -56,7 +56,7 @@ header span {
 
 .main-text {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 36px;
 }
 
 .main-image {
@@ -213,7 +213,7 @@ footer {
 @media screen and (max-width: 1200px) {
     .main-section {
         min-height: 850px;
-        padding-bottom: 10px;
+        padding-bottom: 100px;
         /* 📍 Свойства для установки минимальной высоты секции по размеру контента и нижнего внутреннего отступа */
     }
 
@@ -226,7 +226,7 @@ footer {
     }
 
     .main-image {
-        max-width: 728px;
+        max-width: 100%;
         /* 📍 Максимальная ширина для главного изображения в % */
     }
 
@@ -237,10 +237,7 @@ footer {
     }
 
     .about-section {
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding: 60px 0px;
     /* 📍 Внутренний отступ сверху и снизу */
     }
 }
@@ -257,9 +254,7 @@ footer {
 /* Стили для адаптива под мобильные устройства */
 @media screen and (max-width: 576px) {
     .main-section {
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 30px;
+        padding: 30px 0px 60px;
         /* 📍 Внутренние отступы сверху и снизу */
     }
 
@@ -280,7 +275,7 @@ footer {
     }
 }
 
-.form{
+form{
     display: flex;
     flex-direction: row;
     gap: 10px;
